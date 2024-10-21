@@ -1,0 +1,175 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+}
+/*navbar starts here*/
+.navbar{
+    background-color:white;
+}
+.navbar-brand{
+font-size:2rem;
+color:black;
+font-weight: 700;
+font-family: "Dancing Script", cursive;
+
+}
+.nav-item:hover{
+background-color: rgb(224, 224, 224);
+border-radius: 10px;
+
+}
+.navbar-brand:hover{
+    transform: scale(1.1);
+    color:red;
+}
+.nav-link{
+font-family: "Rubik", sans-serif; 
+margin-left: 10px;
+margin-right: 10px;
+}
+.search{
+    height:40px;
+    width:80%;
+   border-radius:60px;
+   outline:none;
+   border:2px solid red;
+   margin-right: -35px;
+    }
+
+.btn0{
+    height:40px;
+    width:40%;
+    outline:none;
+    border:none;
+    background-color: red;
+    color:white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+/*navbar ends here*/
+
+/*banner section starts */
+.banner{
+background-image: url(images/fresh.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height:100vh;
+width:100%;
+background-position: 50% 50%;
+
+}
+
+.banner h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color:white;
+}
+.btn1{
+height:45px;
+width:35%;
+border:none;
+outline:none;
+background-color:deeppink;
+color:white;
+font-weight: 700;
+border-radius: 60px;
+
+}
+.btn1:hover{
+    background-color: blue;
+    transition:0.5s;
+}
+
+
+/*banner section ends */
+
+/*trending section starts here*/
+h1{
+    font-weight:700;
+}
+
+
+
+/*trending section ends here*/
+
+.card:hover{
+    transition:0.5s;
+    box-shadow: 2px 8px 10px rgb(228, 17, 52);
+
+}
+/*down-banner section starts here*/
+.down-banner{
+background:linear-gradient(rgb(0, 0, 0,0.2),rgb(0, 0,0,0.2)),url(images/organic\ banner.jpg);
+background-repeat: repeat;
+background-size: cover;
+height:80vh;
+width:100%;
+
+}
+.down-banner h1{
+    font-family:'Lobster',cursive;
+}
+/*down-banner section ends here*/
+.txt{
+    resize:none;
+}
+
+/*join secret team starts here*/
+#join{
+background-color: black;
+color:white;
+
+}
+.btn2{
+height:45px;
+width:100px;
+background: white;
+margin-left:-10px;
+border:2px solid white;
+font-weight: 600;
+
+}
+#join input{
+    height:45px;
+    width:55%;
+    border:2px solid white;
+outline:none;
+color:white;
+background: black;
+margin-top:20px;
+}
+#join p{
+    margin:0;
+}
+/*join secret team starts here*/
+/*footer starts here*/
+.b{
+    color:black;
+}
+.fab{
+    padding:2px;
+    padding-top:10px;
+}
+/*footer ends here*/
+
+/*reaponsiveness by media query*/
+@media (max-width:768px) {
+ #home h1{
+    font-size:2rem;
+ }   
+  
+ #features{
+ text-align: center;
+ }
+ #join{
+    text-align:center;
+ }
+}
+@media (max-width:992px){
+    #join{
+        text-align:center;
+     }
+}
+
